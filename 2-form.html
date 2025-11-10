@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form</title>
+    <script type="module" crossorigin src="/hw9-test/2-form.js"></script>
+    <link rel="modulepreload" crossorigin href="/hw9-test/assets/modulepreload-polyfill-B5Qt9EMX.js">
+    <link rel="stylesheet" crossorigin href="/hw9-test/assets/styles-DcJE5DYq.css">
+  </head>
+  <body>
+
+    <main>
+      <div class="container">
+        <h1 class="main-title">
+           Form
+        </h1>
+        <a class="back-link" href="./index.html">Go back</a>
+      </div>
+      <form class="feedback-form" autocomplete="off" style="display: flex; flex-direction: column; gap: 16px; max-width: 400px; margin: 0 auto; margin-top: 32px;">
+        <label>
+          Email
+          <input type="email" name="email" class="js-email-input" />
+        </label>
+        <label>
+          Message
+          <textarea name="message" rows="8" class="js-message-input"></textarea>
+        </label>
+        <button type="submit">Submit</button>
+      </form>
+
+    </main>
+  </body>
+</html>
