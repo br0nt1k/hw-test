@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vite build --base=/hw9-test/",
+    "build": "vite build --base=/hw-test/",
     "preview": "vite preview"
   },
   "devDependencies": {
